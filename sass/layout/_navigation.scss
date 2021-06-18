@@ -1,0 +1,48 @@
+.nav{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    border-bottom: solid 2px gray;
+    .box{
+        min-height: 40px;
+        display: flex;
+        div{
+            margin: 12px;
+
+        }
+    }
+    .mail{
+        display: flex;
+        justify-content: flex-end;
+        flex: 2;
+        margin: 20px;
+        cursor: pointer;
+        
+            a{
+                text-decoration: none;
+                i{
+                    font-size: 30px;
+                    color: black;
+                }
+            }
+    
+       
+    }
+    .chat-plus{
+        display: flex;
+        justify-content:flex-start ;
+        flex: 1;
+        cursor: pointer;
+        a{
+            text-decoration: none;
+            i{
+                font-size: 30px;
+                color: black;
+            }
+        }
+
+
+    }
+}

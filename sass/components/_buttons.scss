@@ -1,0 +1,73 @@
+.nav a{
+
+  button{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+:hover{
+    background-color: lightgray;
+    opacity: 60%;
+}
+}
+#point{
+    background-color:lightgrey;
+    :hover{
+        opacity: 50%;
+        
+    }
+}
+#adđ{
+    background-color: green;
+    color: white;
+    
+}
+.Friend{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    button{
+        display: flex;
+        background-color: whitesmoke;
+        padding: 20px;
+        width: 235px;
+        border: none;
+        border-radius: 5px;
+        justify-content: flex-start;
+    }
+    div{
+        margin: 5px;
+    }
+    a{
+        text-decoration: none;
+        :hover{
+            background-color: lightgray;
+            cursor: pointer;
+        }
+    }
+    span{
+        font-size: 18px;
+        
+
+    }
+    i{
+       font-size: 20px;
+    }
+  
+}
+.chat{
+    button{
+        padding: 5px;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        
+        font-size: 15px;
+    }
+}

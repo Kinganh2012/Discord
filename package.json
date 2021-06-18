@@ -1,0 +1,14 @@
+{
+  "name": "chat_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scsstocss": "node-sass -w --watch sass/main.scss css/style.css"
+  },
+  "author": "Anh Tan",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
